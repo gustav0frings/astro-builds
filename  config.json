@@ -1,0 +1,21 @@
+{
+  "device_id": "terreros-v",
+  "api_url": "",
+  "api_token": "",
+  "poll_interval_seconds": 180,
+  "data_dir": "./data",
+  "cleanup_interval_hours": 24,
+  "cleanup_retention_days": 7,
+  "screens": [
+    {
+      "public_key": "nkgnrobj",
+      "display": ":0",
+      "mpv_options": [
+        "--vo=gpu",
+        "--hwdec=auto",
+        "--keepaspect=no",
+        "--keepaspect-window=no"
+      ]
+    }
+  ]
+}
